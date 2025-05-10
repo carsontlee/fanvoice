@@ -6,7 +6,7 @@ The **FanVoiceApp** is a project aimed at enhancing fan engagement before and du
 
 1.  Collect voice recordings from fans before a show.
 2.  Use ElevenLabs' API to generate custom phrases spoken in the fan's voice. Brainstorm creative phrases with Google's TextFX, integrated via Gemini's API.
-3.  Play these clips during live performances to create unforgettable moments for fans, while giving artists a fun, creative way to customize each show to their audience.
+3.  Integrate these voice clips into live performances to create unforgettable moments for fans, while giving artists a fun, creative way to customize each show to their audience.
 
 ### Use Case
 
