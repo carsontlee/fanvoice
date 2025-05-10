@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The **FanVoiceApp** (formerly FanVoice Drop Tool) is a project aimed at enhancing fan engagement before and during live shows. Using ElevenLabs’ Voice AI technology, this tool allows artists and DJs to:
+The **FanVoiceApp** is a project aimed at enhancing fan engagement before and during live shows. Using ElevenLabs’ Voice AI technology, this tool allows artists and DJs to:
 
 1.  Collect voice recordings from fans before a show.
 2.  Use ElevenLabs' API to generate custom phrases spoken in the fan's voice. Brainstorm creative phrases with Google's TextFX, integrated via Gemini's API.
@@ -156,33 +156,16 @@ Follow these steps to set up and run the FanVoiceApp locally on your computer:
 
 ### Usage Guide
 
-*   **Login/Register:** The application has separate views for 'Fans' and 'Artists'. You can use the default credentials provided on the login page (`fan`/`fanpassword` or `artist`/`artistpassword`) or register new accounts.
+*   **Login/Register:** The application has separate views for 'Fans' and 'Artists'. Use the default credentials provided on the login page (`fan`/`fanpw` or `artist`/`artistpw`).
 *   **Fan View:**
-    *   Upload a short audio file of your voice.
+    *   Upload a short audio file of your voice (best practice is at least 1 minute of you talking about anything, but for proof of concept, even 10 seconds could work)
     *   Give your voice clone a name.
     *   The application will use ElevenLabs to clone your voice.
 *   **Artist View:**
-    *   View available cloned voices.
+    *   View available cloned voices from fans.
     *   Select a cloned voice.
     *   Enter text you want the voice to say.
     *   Use the Gemini/TextFX integration to brainstorm creative phrases (optional).
     *   Generate the audio using ElevenLabs.
     *   Listen to or download the generated audio clip.
-*   **About Page:** Contains information about the project.
-
-## 5. Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these general steps:
-
-1.  Fork the repository on GitHub.
-2.  Create a new branch for your feature or bug fix (`git checkout -b feature/YourAmazingFeature` or `bugfix/IssueDescription`).
-3.  Make your changes and commit them with clear, descriptive messages.
-4.  Push your changes to your forked repository.
-5.  Open a Pull Request against the main repository, detailing the changes you've made.
-
-Please ensure your code adheres to any existing coding standards and consider adding tests for new functionality.
-
-## 6. License
-
-This project is licensed under the MIT License. See the `LICENSE` file (if one is added, otherwise assume MIT for now) for more details.
 
